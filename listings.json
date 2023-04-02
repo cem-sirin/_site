@@ -2,8 +2,16 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/secimler1/index.html",
-      "/posts/welcome/index.html"
+      "/posts/3pleB/index.html",
+      "/posts/overview/index.html",
+      "/posts/secimler1/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/3pleB/index.html",
+      "/posts/overview/index.html"
     ]
   }
 ]

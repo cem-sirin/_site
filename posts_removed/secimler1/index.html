@@ -160,41 +160,38 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">2023 Turkish Presidential Election, Part 1: The Table of Six</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">March 4, 2023</p>
-      </div>
-    </div>
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">2023 Turkish Presidential Election, Part 1: The Table of Six</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">politics</div>
+    <div class="quarto-category">forecasting</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 4, 2023</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
 
 <p>Recently, there is quite the turmoil in Turkey regarding the <a href="https://en.wikipedia.org/wiki/Table_of_Six">Table of Six</a>, the coalition leading the opposition against the ruling Justice and Development Party (AKP). Upon discussions over the coalition’s presidential candidate, the coalition’s second biggest party, IYI Party, announced their withdrawal from the coalition, and the remaining parties are now in a state of uncertainty.</p>
 <p>As it stands, there are three potential candidates for the coalition: Kemal Kılıçdaroğlu, the leader of the Republican People’s Party (CHP), Ekrem İmamoğlu, the mayor of Istanbul, and Mansur Yavaş, the mayor of Ankara. The other five parties in the coalition seem to be in favor of Kılıçdaroğlu, but IYI Party’s leader Meral Akşener made it clear that she’d rather have İmamoğlu or Yavaş as the candidate, as the two regarded to be more popular than Kılıçdaroğlu.</p>
@@ -232,8 +229,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>ax.annotate(<span class="st">'#Polls: '</span> <span class="op">+</span> <span class="bu">str</span>(<span class="bu">len</span>(final_df)), (<span class="dv">0</span>,<span class="dv">0</span>), (<span class="dv">0</span>, <span class="op">-</span><span class="dv">70</span>), xycoords<span class="op">=</span><span class="st">'axes fraction'</span>, textcoords<span class="op">=</span><span class="st">'offset points'</span>, va<span class="op">=</span><span class="st">'top'</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
 <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>ax.legend()</span>
 <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>/var/folders/bh/jd5jd5f11xz8ggqw3gx8jk6c0000gn/T/ipykernel_1428/799877934.py:6: MatplotlibDeprecationWarning:
+
+The seaborn styles shipped by Matplotlib are deprecated since 3.6, as they no longer correspond to the styles shipped by seaborn. However, they will remain available as 'seaborn-v0_8-&lt;style&gt;'. Alternatively, directly use the seaborn API instead.
+</code></pre>
+</div>
 <div class="cell-output cell-output-display">
-<p><img src="index_files/figure-html/cell-2-output-1.png" width="1535" height="852"></p>
+<p><img src="index_files/figure-html/cell-2-output-2.png" width="1535" height="866"></p>
 </div>
 </div>
 
